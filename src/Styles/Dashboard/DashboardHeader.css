@@ -1,0 +1,94 @@
+@import "../Colors.css";
+
+.dashboard__container--head {
+  margin: 15px 0 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--color-COLOR_BLANCO);
+}
+
+.dashboard__img {
+  width: 25%;
+}
+
+.dashboard__container--head img {
+  width: 10%;
+  min-width: 100px;
+  margin-left: 18%;
+}
+
+.container__goals {
+  width: 70%;
+  background: linear-gradient(
+    262.61deg,
+    var(--color-COLOR_AZUL_CLARO) 16.09%,
+    var(--color-COLOR_AZUL_OSCURO) 76.82%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+
+.goals__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-right: 90px;
+}
+
+.goals__left--title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: 0px;
+}
+.goals__left--content {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.goals__line {
+  height: 90%;
+  width: 1px;
+  background: var(--color-COLOR_BLANCO);
+}
+
+.goals__right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.goals__right--subtitle {
+  font-weight: bolder;
+  padding-right: 15px;
+  margin: 5px;
+}
+
+.modaleditgoals_bttn__container {
+  margin: 0 0 15px 40px;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.modaleditgoals_button {
+  background-color: #8ed1ff;
+  border-color: #8ed1ff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: var(--color-COLOR_BLANCO);
+  line-height: 0.5;
+  border: none;
+  outline: none !important;
+}
+
+.modaleditgoals_button:hover {
+  transform: scale(1.1);
+}

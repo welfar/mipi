@@ -1,0 +1,7 @@
+@import "../Colors.css";
+
+.costumerData__header--circle {
+  color: var(--color-COLOR_VERDE_BRILLANTE);
+  font-size: 15px;
+  margin-top: 20px;
+}

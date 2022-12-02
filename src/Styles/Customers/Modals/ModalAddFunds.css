@@ -1,0 +1,54 @@
+@import "../../Colors.css";
+
+.modalAddFunds_container {
+  width: 600px;
+}
+
+.modalAddFunds_p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.addBalance_container,
+.reference_container,
+.description_container {
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addBalance_title_config,
+.reference_title_config,
+.description_title_config {
+  width: 350px;
+}
+
+.modalAddFunds_inputConfig {
+  margin-bottom: 1rem;
+  height: 40px;
+  width: 350px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+}
+
+.modalAddFunds_btn_container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_confirm {
+  border: none;
+  outline: none !important;
+  border-radius: 10px;
+  height: 40px;
+  color: var(--color-COLOR_BLANCO);
+  background: var(--color-COLOR_AZUL_CLARO);
+}
+
+.btn_confirm:hover {
+  transform: scale(1.1);
+}

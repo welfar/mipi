@@ -1,0 +1,28 @@
+/* Scroll Bar compatibilidad con: */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #25233c #eaedf7;
+}
+
+/* Opera Chrome Edge */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #25233c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0096ff;
+}

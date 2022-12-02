@@ -1,0 +1,43 @@
+@import "../Colors.css";
+
+.container__section {
+  background: var(--color-COLOR_BLANCO);
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 18px;
+  padding-bottom: 14px;
+  width: 100%;
+}
+
+.container__section--header {
+  margin-top: 20px;
+  padding: 5px;
+  width: 97%;
+  height: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.container__section--line {
+  background: var(--color-COLOR_GRIS);
+  width: 97%;
+  height: 1px;
+  align-self: center;
+  margin: 0px 17px 0px 15px;
+}
+
+.sectionpersonalize_header__title {
+  margin-left: 42px;
+  padding-top: 15px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 33px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.header__button {
+  margin-left: 10px;
+  height: 78%;
+}

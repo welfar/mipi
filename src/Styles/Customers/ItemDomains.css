@@ -1,0 +1,58 @@
+@import "../Colors.css";
+
+.itemDomContainer {
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px 8px 3px 18px;
+}
+
+.itemDomContainer__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemDomContainer__header--left {
+  display: flex;
+  flex-direction: row;
+}
+
+.itemDomContainer__header--left p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.idDomain {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.iconStatus-active {
+  color: var(--color-COLOR_VERDE_BRILLANTE);
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.iconStatus-expired {
+  color: var(--color-COLOR_ROJO);
+  font-size: 10px;
+  margin-top: 3px;
+}
+.iconStatus-suspended {
+  color: #e67e22;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.iconStatus-pending_delete {
+  color: var(--color-COLOR_AMARILLO);
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.dueDate {
+  font-size: 14px;
+}

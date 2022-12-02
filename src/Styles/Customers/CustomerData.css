@@ -1,0 +1,246 @@
+@import "../Colors.css";
+
+.costumerData__container {
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 15px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0px 15px 10px;
+}
+
+.costumerData__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.costumerData__header--left {
+  display: flex;
+  flex-direction: row;
+}
+
+.costumerData__header--icon {
+  font-size: 2.68rem;
+  margin: 5px 3px 2px 10px;
+}
+
+.costumerData__header--name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 5px 2px 15px;
+}
+
+.costumerData__header--email {
+  margin: 0px 15px;
+  font-size: 16px;
+}
+
+.costumerData__header--circle {
+  color: var(--color-COLOR_VERDE_BRILLANTE);
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.costumerData__header--id {
+  color: var(--color-COLOR_AZUL_OSCURO);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 15px 0px;
+}
+
+.costumerData__amounts_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.costumerData__amounts--2fa {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.switchBtn {
+  display: inline-block;
+}
+.switchBtn > label {
+  margin-bottom: 0;
+}
+.switchBtn .switchBtn__checkbox {
+  display: none;
+}
+.switchBtn .slide {
+  cursor: pointer;
+  padding: 4px;
+  background-color: var(--color-COLOR_GRIS_OSCURO);
+  width: 54px;
+  height: 30px;
+  border-radius: 3rem;
+  display: inline-block;
+  position: relative;
+}
+.switchBtn .slide:before {
+  transition: 0.2s;
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 3px;
+  background-color: var(--color-COLOR_BLANCO);
+  content: "";
+  border-radius: 50%;
+}
+.switchBtn .switchBtn__checkbox:checked + .slide {
+  background-color: var(--color-COLOR_AZUL_CLARO);
+}
+.switchBtn .switchBtn__checkbox:checked + .slide:before {
+  transform: translateX(1.3rem);
+}
+
+.costumerData__amounts--2fa > p {
+  margin-bottom: 0;
+}
+
+.costumerData__amount {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  align-items: flex-end;
+}
+
+.costumerData__amounts--spend {
+  color: var(--color-COLOR_ROJO);
+  margin-bottom: 0px;
+}
+
+.costumerData__amounts--available {
+  color: var(--color-COLOR_AZUL_CLARO);
+  margin-bottom: 2px;
+}
+
+.costumerData__cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.costumerData__cont--left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.costumerData__cont--titles {
+  margin: 0px 20px 0px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.costumerData__cont--titles p {
+  margin-bottom: 12px;
+}
+.costumerData__cont--data p {
+  margin-bottom: 12px;
+}
+
+.costumerData__cont--right {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.costumerData__cont--buttons {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.bttn__container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.bttn__container .textBtn {
+  margin: 10px 10px auto;
+  font-size: 15px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.bttn__container > button {
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  line-height: 0.5;
+  outline: none;
+}
+
+.button__key {
+  background-color: var(--color-COLOR_AZUL_CLARO);
+  border-color: var(--color-COLOR_AZUL_CLARO);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+.button__key:hover {
+  transform: scale(1.1);
+}
+
+.bttn__container:hover p {
+  visibility: visible;
+}
+
+.button__coupons {
+  background-color: var(--color-COLOR_PURPURA);
+  border-color: var(--color-COLOR_PURPURA);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+
+.button__coupons:hover {
+  transform: scale(1.1);
+}
+
+.button__validateCell {
+  background-color: var(--color-COLOR_ROJO);
+  border-color: var(--color-COLOR_ROJO);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+
+.button__validateCell:hover {
+  transform: scale(1.1);
+}
+
+.button_addFunds {
+  background-color: var(--color-COLOR_VERDE_CLARO);
+  border-color: var(--color-COLOR_VERDE_CLARO);
+  color: var(--color-COLOR_AZUL_CLARO);
+  margin-bottom: 10px;
+}
+
+.button__addFunds:hover {
+  transform: scale(1.1);
+}
+
+.button_edit {
+  background-color: #8ed1ff;
+  border-color: #8ed1ff;
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+
+.button_edit:hover {
+  transform: scale(1.1);
+}

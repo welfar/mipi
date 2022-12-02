@@ -1,0 +1,98 @@
+@import "../Colors.css";
+
+.container_serviceData {
+  background: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0px 15px 10px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.container_serviceData_title {
+  margin: 15px 45px 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.container_serviceData_content {
+  margin-left: 15px;
+  display: flex;
+}
+
+.suspend_content {
+  width: 180px;
+  justify-content: space-between;
+}
+
+.serviceData__cont--left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.serviceData_button__container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.serviceData_button__container p {
+  margin: 10px 10px auto;
+  font-size: 15px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.serviceData_button__container:hover p {
+  visibility: visible;
+}
+
+.serviceData_button__container button {
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 0.5;
+  width: 40px;
+}
+
+.button__suspende {
+  background-color: var(--color-COLOR_GRIS_OSCURO);
+  border-color: var(--color-COLOR_GRIS_OSCURO);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+.button__suspende:hover {
+  transform: scale(1.1);
+}
+
+.button__unsuspende {
+  background-color: var(--color-COLOR_VERDE_CLARO);
+  border-color: var(--color-COLOR_VERDE_CLARO);
+  color: var(--color-COLOR_AZUL_CLARO);
+  margin-bottom: 10px;
+}
+.button__unsuspende:hover {
+  transform: scale(1.1);
+}
+
+.button__delete {
+  background-color: var(--color-COLOR_ROJO);
+  border-color: var(--color-COLOR_ROJO);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+.button__delete:hover {
+  transform: scale(1.1);
+}
+
+.loader_config {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 60px;
+}

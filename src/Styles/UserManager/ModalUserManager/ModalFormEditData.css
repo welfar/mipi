@@ -1,0 +1,210 @@
+@import "../../Colors.css";
+
+input::placeholder {
+  color: #e5dddd;
+}
+
+.container__dataeditform {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 4px 0 20px;
+}
+
+.container__image {
+  margin: 5x 0 0 7px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__image-img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 100%;
+}
+
+p#text {
+  text-align: center;
+  color: var(--color-COLOR_AZUL_CLARO);
+  font-weight: bold;
+}
+
+div#div__file {
+  position: relative;
+  margin: 15px;
+  padding: 5px;
+  width: 120px;
+  height: 35px;
+  background-color: var(--color-COLOR_BLANCO);
+  border: 1px solid var(--color-COLOR_AZUL_CLARO);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input#btn__enviar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.container__form {
+  width: 70%;
+  margin-right: 10px;
+  display: flex;
+}
+
+.form {
+  margin-top: 20px;
+  padding-left: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form__container-label-input {
+  margin-bottom: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__container-label-input.last {
+  margin-bottom: 15px;
+}
+
+.form__container-label-input--label-config {
+  padding-top: 7px;
+  height: 40px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  font-size: larger;
+}
+
+.form__container-label-input--input-config {
+  background: var(--color-COLOR_BLANCO);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+  width: 260px;
+  height: 32px;
+  border: none;
+  padding-left: 12px;
+  outline: none;
+}
+
+.modaleditdata_button__container {
+  margin-bottom: 15px;
+  background-color: var(--color-COLOR_PURPURA);
+  font-size: 20px;
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-color: var(--color-COLOR_PURPURA);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: var(--color-COLOR_BLANCO);
+  line-height: 0.5;
+}
+
+.modaleditdata_button__container:hover {
+  transform: scale(1.1);
+}
+
+input#save {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .modal__containter--closeButton {
+    outline: none;
+    width: 30px;
+    height: 28px;
+    font-size: 13px;
+  }
+
+  .container__dataeditform {
+    font-size: 0.9rem;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    padding-right: 20px;
+  }
+
+  .container__image {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  .container__image-img {
+    margin-top: 170px;
+    width: 11rem;
+    height: 11rem;
+  }
+
+  div#div__file {
+    margin: 10px;
+    padding: 2px;
+    width: 100px;
+    height: 27px;
+  }
+
+  .container__form {
+    width: 100%;
+  }
+
+  .form {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .form__container-label-input {
+    margin-bottom: 4px;
+  }
+
+  .form__container-label-input.last {
+    margin-bottom: 0;
+  }
+
+  .form__container-label-input--input-config {
+    height: 30px;
+  }
+
+  .form__container-label-input--label-config {
+    font-size: medium;
+    padding-right: 15px;
+  }
+
+  .modaleditdata_button__container {
+    margin-bottom: 0;
+  }
+
+  .form__container-inputs--save {
+    width: 100px;
+    height: 27px;
+  }
+}

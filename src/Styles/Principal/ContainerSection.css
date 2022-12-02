@@ -1,0 +1,58 @@
+@import "../Colors.css";
+
+.container__section {
+  background: var(--color-COLOR_BLANCO);
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 18px;
+  padding-bottom: 14px;
+  width: 100%;
+}
+
+.container__section--header {
+  margin-top: 20px;
+  padding: 5px;
+  width: 97%;
+  height: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.container__section--line {
+  background: var(--color-COLOR_GRIS_CLARO);
+  width: 97%;
+  height: 1px;
+  align-self: center;
+  margin: 0px 17px 0px 15px;
+}
+
+.contsection_header__title {
+  flex: 8;
+  margin-left: 42px;
+  padding-top: 15px;
+  width: 85%;
+  text-align: left;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 33px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.contsection_header__button {
+  flex: 2;
+  height: 78%;
+}
+
+.contsection_header__button  p {
+  flex: 2;
+  padding-top: 15px;
+  width: 85%;
+  text-align: right;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 33px;
+  color: var(--color-COLOR_AZUL_CLARO);
+}
+
+

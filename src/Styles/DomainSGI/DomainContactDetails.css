@@ -1,0 +1,56 @@
+@import "../Colors.css";
+
+.container__domaincontactdetails {
+  background: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0px 15px 10px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.container__domaindetail {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background: var(--color-COLOR_GRIS_CLARO);
+}
+
+.container__domaincontactdetails--tittle {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.fa-angle-down {
+  font-size: 22px;
+}
+
+.container__columns {
+  display: flex;
+  font-size: 20px;
+  margin: 0 0 10px 20px;
+}
+
+.container__columns > div {
+  width: 50%;
+  padding: 10px;
+}
+
+.container__inputs {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.container__columns__domainsinfo--disabled {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-COLOR_NEGRO);
+  background: transparent;
+  border: none;
+}

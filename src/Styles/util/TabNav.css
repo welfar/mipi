@@ -1,0 +1,31 @@
+@import "../Colors.css";
+
+.navigation__container {
+  margin-top: 18px;
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  list-style: none;
+  height: 42px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.itemlist__container {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  width: calc(80vw / 3);
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+.active {
+  background: var(--color-COLOR_CELESTE);
+}
+
+.inactive {
+  background: var(--color-COLOR_GRIS_CLARO);
+}

@@ -1,0 +1,100 @@
+@import "../Colors.css";
+
+.container__dnsregister {
+  background: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0px 15px 10px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.container__dnsReg {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background: var(--color-COLOR_GRIS_CLARO);
+}
+
+.container__dnsregister--text {
+  margin-bottom: 0;
+}
+
+.container__hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container__dnsregister--tittle {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.container__dnsregister--text {
+  font-size: 20px;
+  margin: 0 0 10px 20px;
+}
+
+.dns__reg_container_inputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.container__add_inputs {
+  display: flex;
+  flex: 8;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.dns__reg_input_config {
+  padding-left: 10px;
+  margin: 10px 0 0 0;
+  height: 36px;
+  width: 170px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: var(--color-COLOR_BLANCO);
+}
+
+.dns__reg_input_config.ttl {
+  width: 80px;
+}
+
+.container__icon {
+  margin-top: 10px;
+}
+.container__icon_btn {
+  background-color: transparent;
+  border: none;
+}
+
+.dns__reg_incon {
+  height: 32px;
+  width: 32px;
+}
+.dns__reg_incon:hover{
+  cursor: pointer;
+  color: var(--color-COLOR_AZUL_CLARO);
+}
+
+@media only screen and (max-width: 880px) {
+  .dns__reg_container_inputs {
+    flex-direction: column;
+  }
+
+  .container__add_inputs {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

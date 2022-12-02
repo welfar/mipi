@@ -1,0 +1,12 @@
+@import "./Colors.css";
+
+.background__login {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-COLOR_GRIS);
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

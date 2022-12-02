@@ -1,0 +1,54 @@
+@import "../Colors.css";
+
+.itemServicesContainer {
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px 8px 3px 18px;
+}
+
+.itemServicesContainer__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemServicesContainer__header--left {
+  display: flex;
+  flex-direction: row;
+}
+.itemServicesContainer__header--left p {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.idDomain {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: var(--color-COLOR_PURPURA);
+}
+
+.iconStatus {
+  color: var(--color-COLOR_VERDE_BRILLANTE);
+  margin-top: 2px;
+  font-size: 11px;
+}
+
+.itemServicesContainer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nameDomain {
+  color: var(--color-COLOR_AZUL_CLARO);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.dueDate {
+  font-size: 14px;
+}

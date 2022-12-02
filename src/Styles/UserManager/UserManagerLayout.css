@@ -1,0 +1,58 @@
+@import "../Colors.css";
+
+.general {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 800px;
+  border-radius: 10px;
+  margin: 20px 25px;
+  overflow-y: scroll;
+}
+
+.itemContainerBotton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 25px;
+}
+
+.itemContainerBotton__buttons--plus {
+  background-color: var(--color-COLOR_CELESTE);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: var(--color-COLOR_CELESTE);
+  border-radius: 50%;
+  font-size: 0.8em;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  margin: 5px;
+}
+
+.itemContainerBotton__buttons--plus:hover {
+  color: var(--color-COLOR_GRIS_CLARO);
+  box-shadow: 0px 0px 5px 4px rgba(49, 141, 255, 0.28);
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+}
+
+.itemContainerBotton__buttons--plusIcon {
+  font-size: 25px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.itemContainerBotton > p {
+  color: var(--color-COLOR_AZUL_OSCURO);
+  margin: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.itemContainerBotton:hover > p {
+  visibility: visible;
+}

@@ -1,0 +1,39 @@
+@import "../Colors.css";
+
+.products__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products__domain {
+  width: 48%;
+}
+.products__services {
+  width: 48%;
+}
+
+.button__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.textTransactions {
+  margin-top: 12px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  font-weight: bold;
+}
+
+.button__transactions {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--color-COLOR_AZUL_CLARO);
+  border-color: var(--color-COLOR_AZUL_CLARO);
+  font-size: 25px;
+  color: var(--color-COLOR_BLANCO);
+  outline: none;
+}

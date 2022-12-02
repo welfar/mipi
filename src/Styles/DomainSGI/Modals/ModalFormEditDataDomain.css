@@ -1,0 +1,10 @@
+.changeDataDomain_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.changeDataDomain_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

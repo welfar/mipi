@@ -1,0 +1,54 @@
+@import "../../Colors.css";
+
+.modal_edit_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.newEmail_container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.modalNewEmail_inputConfig {
+  margin-bottom: 1rem;
+  height: 40px;
+  width: 350px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+}
+
+.bttn__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bttn__container > button {
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  line-height: 0.5;
+  outline: none;
+}
+
+.button_save_edit {
+  background-color: var(--color-COLOR_PURPURA);
+  border-color: var(--color-COLOR_PURPURA);
+  color: var(--color-COLOR_BLANCO);
+  margin-bottom: 10px;
+}
+
+.button_save_edit:hover {
+  transform: scale(1.1);
+}
+
+.loader_content {
+  padding-right: 60px;
+}

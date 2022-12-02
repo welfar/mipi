@@ -1,0 +1,99 @@
+@import "../Colors.css";
+
+.table__containter_orders {
+  text-align: center;
+  box-shadow: -1px 2px 9px -2px var(--color-COLOR_AZUL_OSCURO);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 520px;
+  border-radius: 15px;
+  overflow-x: scroll;
+  font-size: 13px;
+}
+
+.first_row-th {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  display: flex;
+  width: 1676px;
+  min-height: 50px;
+  background-color: var(--color-COLOR_AZUL_OSCURO);
+  align-items: stretch;
+}
+
+.th_row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+  border: 0.5px solid var(--color-COLOR_GRIS_OSCURO);
+  color: var(--color-COLOR_BLANCO);
+}
+
+.table_rows_content {
+  display: flex;
+  width: 1676px;
+  min-height: 50px;
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  align-items: stretch;
+}
+.table_rows_content:hover {
+  background-color: var(--color-COLOR_GRIS);
+  border: 0.5px solid var(--color-COLOR_BLANCO);
+}
+
+.completado_color_status {
+  color: var(--color-COLOR_VERDE);
+}
+.pendiente_color_status {
+  color: var(--color-COLOR_AMARILLO_OSCURO);
+}
+.cancelado_color_status {
+  color: var(--color-COLOR_ROJO);
+}
+.devuelto_color_status {
+  color: var(--color-COLOR_PURPURA);
+}
+.creado_color_status {
+  color: var(--color-COLOR_AZUL_TURQUEZA);
+}
+.rechazado_color_status {
+  color: var(--color-COLOR_ROJO_OSCURO);
+}
+.retomado_color_status {
+  color: var(--color-COLOR_AMARILLO);
+}
+
+.table_td {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+  border: 0.5px solid var(--color-COLOR_GRIS);
+}
+.table_td:hover {
+  border: 0.5px solid var(--color-COLOR_BLANCO);
+}
+
+.dif {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px !important;
+}
+
+.Modification__btn {
+  color: var(--color-COLOR_BLANCO);
+  background-color: var(--color-COLOR_AZUL_OSCURO);
+  outline: none !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.Modification__btn:hover {
+  color: var(--color-COLOR_AZUL_OSCURO);
+  background-color: var(--color-COLOR_AZUL_CLARO);
+}

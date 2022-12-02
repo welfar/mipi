@@ -1,0 +1,60 @@
+@import "../Colors.css";
+
+.cardContainer {
+  height: 280px;
+  width: 28%;
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 15px;
+  padding: 20px 30px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+.card__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+.card__content--up {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card__content--upitem {
+  display: flex;
+  flex-direction: row;
+}
+.card__content--upitem p {
+  padding-top: 5px;
+  font-size: 1rem;
+  margin: 0px;
+}
+.icon {
+  font-size: 1.2rem;
+  padding-right: 8px;
+}
+
+.date {
+  padding-right: 8px;
+}
+
+.number {
+  padding-right: 8px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: var(--color-COLOR_GRIS_OSCURO);
+}
+
+.card__content--down {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}

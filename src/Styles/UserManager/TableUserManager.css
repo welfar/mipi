@@ -1,0 +1,70 @@
+@import "../Colors.css";
+
+.itemContainerCard {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 230px;
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 10px;
+  margin: 15px 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 25);
+}
+
+.itemContainerCard__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.itemContainerCard__nameUser {
+  height: 15%;
+  font-size: 15px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  text-align: center;
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+.itemContainerCard__buttons {
+  display: flex;
+  height: 25%;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.itemContainerCard__buttons--permissions {
+  background-color: var(--color-COLOR_CELESTE);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: var(--color-COLOR_CELESTE);
+  border-radius: 50%;
+  font-size: 0.8em;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.itemContainerCard__buttons--permissions:hover {
+  color: var(--color-COLOR_GRIS_CLARO);
+  box-shadow: 0px 0px 5px 4px rgba(49, 141, 255, 0.28);
+  transition: all 0.2s ease;
+}
+
+.itemContainerCard__buttons--permissionsIcon {
+  font-size: 25px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+}
+.itemContainerCard__buttons--permissionsIcon p {
+  margin: 4px 0 0 0;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.itemContainerCard__img--size {
+  width: 132px;
+  height: 129px;
+  border-radius: 100%;
+  overflow: hidden;
+}

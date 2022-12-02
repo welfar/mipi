@@ -1,0 +1,6 @@
+.accordion__header button[type="button"] {
+  width: 100% !important;
+  border: none !important;
+  outline: none;
+  background-color: transparent;
+}

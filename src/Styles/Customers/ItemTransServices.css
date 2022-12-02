@@ -1,0 +1,47 @@
+@import "../Colors.css";
+
+.itemTransServContainer {
+  background-color: var(--color-COLOR_GRIS_CLARO);
+  border-radius: 10px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  margin: 10px 10px;
+  padding: 10px 8px 3px 18px;
+}
+
+.itemTransServContainer__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.idTransaction {
+  color: var(--color-COLOR_AZUL_OSCURO);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.amountTransaction {
+  color: var(--color-COLOR_AZUL_CLARO);
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.itemTransServContainer__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.transationType {
+  color: var(--color-COLOR_PURPURA);
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.transationDate {
+  align-self: flex-end;
+  font-size: 15px;
+}

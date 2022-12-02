@@ -1,0 +1,60 @@
+@import "../Colors.css";
+
+.row {
+  margin: 0px;
+}
+
+.body__content {
+  width: 85%;
+  padding: 16px;
+  margin-left: 15%;
+  background: var(--color-COLOR_GRIS_CLARO);
+}
+
+.body__content--hide {
+  width: 93%;
+  padding: 16px;
+  margin-left: 7%;
+  background: var(--color-COLOR_GRIS_CLARO);
+}
+
+.container__body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.navleft__body {
+  font-size: 14px;
+  min-height: 100%;
+  height: 100%;
+  color: white;
+  width: 15%;
+  position: fixed;
+  display: block;
+  background-color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+.navleft__body--hide {
+  font-size: 14px;
+  min-height: 100%;
+  height: 100%;
+  color: white;
+  width: 7%;
+  position: fixed;
+  display: block;
+  background-color: var(--color-COLOR_AZUL_OSCURO);
+}
+
+@media (max-width: 1000px) {
+  .navleft__body {
+    width: 10%;
+  }
+
+  .body__content {
+    width: 90%;
+    margin-left: 10%;
+  }
+}

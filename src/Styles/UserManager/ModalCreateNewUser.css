@@ -1,0 +1,206 @@
+@import "../Colors.css";
+
+input::placeholder {
+  color: #e5dddd;
+}
+
+.container__create_user_form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 4px 0 20px;
+}
+
+.cu_container__image {
+  margin: 5px 0 0 7px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cu_container__image-img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 100%;
+}
+
+p#text {
+  text-align: center;
+  color: var(--color-COLOR_AZUL_CLARO);
+  font-weight: bold;
+}
+
+div#div__file.btn__img_prof {
+  position: relative;
+  margin: 15px;
+  padding: 5px;
+  width: 120px;
+  height: 35px;
+  background-color: var(--color-COLOR_BLANCO);
+  border: 1px solid var(--color-COLOR_AZUL_CLARO);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input#btn__enviar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.cu_container__form {
+  width: 70%;
+  height: 100%;
+  display: flex;
+}
+
+.cu_form {
+  margin-top: 20px;
+  padding-left: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cu_form__container-label-input {
+  margin-bottom: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cu_form__container-label-check {
+  margin-bottom: 22px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+input[type="checkbox"].cu {
+  height: 25px;
+  width: 25px;
+  margin: 7px 0 0 18%;
+}
+
+.cu_form__container-label-input--label-config {
+  padding-top: 7px;
+  color: var(--color-COLOR_AZUL_OSCURO);
+  font-size: larger;
+}
+
+.cu_form__container-label-input--input-config {
+  background: var(--color-COLOR_BLANCO);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+  width: 260px;
+  height: 32px;
+  border: none;
+  padding-left: 12px;
+  outline: none;
+}
+
+.cu_form__container-buttons {
+  background-color: var(--color-COLOR_PURPURA);
+  font-size: 20px;
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-color: var(--color-COLOR_PURPURA);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: var(--color-COLOR_BLANCO);
+  line-height: 0.5;
+}
+
+.cu_form__container-buttons:hover {
+  transform: scale(1.1);
+}
+
+input#new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .header__title_modal {
+    font-size: 1.4rem;
+  }
+
+  .container__create_user_form {
+    font-size: 0.9rem;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: scroll;
+    padding-right: 20px;
+  }
+
+  .cu_container__image {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  .cu_container__image-img {
+    margin-top: 170px;
+    width: 11rem;
+    height: 11rem;
+  }
+
+  div#div__file.btn__img_prof {
+    margin: 10px;
+    padding: 2px;
+    width: 100px;
+    height: 27px;
+  }
+
+  .cu_container__form {
+    width: 100%;
+  }
+
+  .cu_form {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .cu_form__container-label-input--label-config {
+    padding-right: 15px;
+  }
+
+  input[type="checkbox"].cu {
+    height: 22px;
+    width: 22px;
+    margin: 8px 0 0 7%;
+  }
+
+  .cu_form__container-label-check {
+    margin-bottom: 7px;
+  }
+
+  .form__container-inputs--save {
+    width: 100px;
+    height: 27px;
+  }
+}
